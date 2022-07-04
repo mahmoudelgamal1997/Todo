@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reminder</string>
+    <string name="empty_list">مرحبا،قم باضافه خاطرتك الاولي</string>
+    <string name="add_note">اضافه ملاحظه</string>
+    <string name="add_description">اضغط هنا لاضافه ملاحظه جديده</string>
+    <string name="remove">تم مسح الملاحظه بنجاح</string>
+</resources>

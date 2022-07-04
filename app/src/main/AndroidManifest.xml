@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.elgaml.noteit">
+    <uses-permission android:name= "android.permission.INTERNET"/>
+
+    <application
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="dev.elgaml.noteit.ui.SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="dev.elgaml.noteit.ui.EditNote"/>
+        <activity android:name="dev.elgaml.noteit.ui.OpenNote"/>
+        <activity android:name="dev.elgaml.noteit.ui.AddNote"
+            android:hardwareAccelerated="true"
+            />
+        <activity android:name="dev.elgaml.noteit.ui.MainActivity"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7819737441034557~3833622358"/>
+    </application>
+
+
+</manifest>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Reminder</string>
+    <string name="empty_list">Hello,\nWrite Your First Note</string>
+    <string name="add_note">Add Note</string>
+    <string name="add_description">Click on this button to add new Note</string>
+    <string name="remove">Note Removed Successfully</string>
+</resources>
